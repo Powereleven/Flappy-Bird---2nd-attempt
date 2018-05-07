@@ -7,7 +7,7 @@
 #if defined(_STRING_)
 using std::to_string;
 #else
-std::string to_string(int number) // fix compilation on GCC
+std::string to_string(int number) // fix compilation on MinGW
 {
 	std::string number_string = "";
 	number = abs(number);
