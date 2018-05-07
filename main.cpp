@@ -4,10 +4,10 @@
 #include "Obstacles.h"
 #include "Collision.h"
 
+#if defined(_STRING_)
 using std::to_string;
-
-/*
-std::string to_string(int number) //if your compiler doesn't accept std::to_string, use this
+#else
+std::string to_string(int number) // fix compilation on GCC
 {
 	std::string number_string = "";
 	number = abs(number);
@@ -39,7 +39,7 @@ std::string to_string(int number) //if your compiler doesn't accept std::to_stri
 	}
 	return number_string;
 }
-*/
+#endif
 
 int main()
 {
