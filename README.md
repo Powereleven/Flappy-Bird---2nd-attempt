@@ -1,2 +1,1 @@
-# Flappy-Bird---2nd-attempt
-Improved version I guess.
+# Flappy-Bird Clone Attempt
