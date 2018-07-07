@@ -1,6 +1,6 @@
 #include "Obstacles.h"
 
-unsigned Obstacles::new_x = 600; //why can't you define the static variable in c++ when you declare it?
+unsigned Obstacles::new_x = 600;
 
 Obstacles::Obstacles()
 {
