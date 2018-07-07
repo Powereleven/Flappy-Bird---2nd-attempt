@@ -7,8 +7,8 @@ class Bird
 {
 public:
 	sf::RenderWindow &app;
-	sf::SoundBuffer buffer; sf::Sound flap; //all to do with sound in the same line
-	sf::Texture t; sf::Sprite s; //all to do with image in the same line
+	sf::SoundBuffer buffer; sf::Sound flap; 
+	sf::Texture t; sf::Sprite s; 
 	float dy = 0; // for gravity
 	bool alive = 1;
 	int angle = 0;
