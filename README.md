@@ -1,1 +1,2 @@
-# Flappy-Bird Clone Attempt
+# Flappy-Bird Clone
+My first game
